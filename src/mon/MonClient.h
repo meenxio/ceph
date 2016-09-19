@@ -25,7 +25,6 @@
 #include "common/Finisher.h"
 #include "common/config.h"
 #include "auth/AuthClientHandler.h"
-#include "auth/RotatingKeyRing.h"
 #include "common/SimpleRNG.h"
 
 
@@ -43,7 +42,7 @@ class AuthSupported;
 class AuthAuthorizeHandlerRegistry;
 class AuthMethodList;
 class Messenger;
-// class RotatingKeyRing;
+class RotatingKeyRing;
 class KeyRing;
 
 struct MonClientPinger : public Dispatcher {
